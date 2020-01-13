@@ -25,14 +25,19 @@ function reactRenderer(req, res, next) {
     try{
         store = configureStore({}, req.url);
     }
-    catch(err){}
+    catch(err){ console.log(err) }
     const sheet = new ServerStyleSheet();
     let html = indexFile;
     let context = {};
+    
+    let fetchDataParams = {
+        url: req.url,
+    };
+
     const branch = matchRoutes(routes, req.url);
     const promises = branch.map(({ route }) => {
         let fetchData = route.component.fetchData;
-        return fetchData instanceof Function ? fetchData(store) : Promise.resolve(null)
+        return fetchData instanceof Function ? fetchData(store, fetchDataParams) : Promise.resolve(null)
     });
     Promise.all(promises)
         .then((data) => {
@@ -44,7 +49,6 @@ function reactRenderer(req, res, next) {
                 </Provider>
             ));
 
-            console.log(store.getState() )
             const styleTags = sheet.getStyleTags();
             html = html.replace( '<style id="styled-component-css"></style>', styleTags );
             html = html.replace( '<div id="root"></div>', '<div id="root">' + content + '</div>' );

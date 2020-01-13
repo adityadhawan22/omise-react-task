@@ -92,9 +92,15 @@ const BottomLine = styled.div`
 
 class Charity extends React.Component {
 
-	static fetchData(store) {
-		console.log("Inside Home");
-		return store.dispatch(homeActions.loadHomeData());
+	static fetchData(store, params = {}) {
+		let url = params.url;
+		let items = url.split("/");
+		let slug = items[items.length - 1];
+
+		console.log("Inside Charity", slug);
+		return Promise.all([store.dispatch(charityActions.loadCharityData(slug)),
+			store.dispatch(homeActions.loadPaymentsData()),
+		]);
 	}
 
 	componentDidMount() {

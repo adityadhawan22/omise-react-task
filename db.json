@@ -318,6 +318,24 @@
       "amount": 150,
       "currency": "TBH",
       "id": 49
+    },
+    {
+      "charitiesId": 2,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 50
+    },
+    {
+      "charitiesId": 2,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 51
+    },
+    {
+      "charitiesId": 3,
+      "amount": 200,
+      "currency": "TBH",
+      "id": 52
     }
   ]
 }

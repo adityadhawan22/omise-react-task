@@ -65,9 +65,11 @@ class Home extends React.Component {
 		loadPaymentsData();
 	}
 
-	static fetchData(store) {
+	static fetchData(store, params={}) {
 		console.log("Inside Home");
-		return store.dispatch(homeActions.loadHomeData());
+		return Promise.all([store.dispatch(homeActions.loadHomeData()),
+			store.dispatch(homeActions.loadPaymentsData()),
+		]);
 	}
 
 
