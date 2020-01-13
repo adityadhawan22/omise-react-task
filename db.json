@@ -1,0 +1,323 @@
+{
+  "charities": [
+    {
+      "id": 1,
+      "name": "Baan Kru Noi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYwALUCiHD7yYI3mYbThubtT0dy7knFnglK6y4ehOCSOctYzAU",
+      "currency": "THB",
+      "description": "Arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec"
+    },
+    {
+      "id": 2,
+      "name": "Habitat for Humanity Thailand",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZLcso7VulUwfPFZzNGprGaVrvdE1er9gN0qQgOmvTMU3OjqpN",
+      "currency": "THB",
+      "description": "Arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec"
+    },
+    {
+      "id": 3,
+      "name": "Paper Ranger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRihL4oo1sVI2a17iZKn2pA1bsC35zsYrZTWnaWkpaft59FU7b9",
+      "currency": "THB",
+      "description": "Arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec"
+    },
+    {
+      "id": 4,
+      "name": "Makhampom Theater",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_cgCC7iQ8WH-SmkFkeS5ccQhd1wLbnVt-MKZVbrKzR1sY9Edl",
+      "currency": "THB",
+      "description": "Arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec"
+    },
+    {
+      "id": 5,
+      "name": "Thailand Association of the Blind",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3McO-k-kZ0dYHZx-oqYTxeSX78RaBhUQ46ZygSuWfmsC3dcHt",
+      "currency": "THB",
+      "description": "Arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec"
+    }
+  ],
+  "payments": [
+    {
+      "charitiesId": 2,
+      "amount": 10,
+      "currency": "THB",
+      "id": 1
+    },
+    {
+      "charitiesId": 1,
+      "amount": 20,
+      "currency": "THB",
+      "id": 2
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "THB",
+      "id": 3
+    },
+    {
+      "charitiesId": 1,
+      "amount": "100",
+      "currency": "TBH",
+      "id": 6
+    },
+    {
+      "charitiesId": 1,
+      "amount": 100,
+      "currency": "TBH",
+      "id": 7
+    },
+    {
+      "charitiesId": 1,
+      "amount": 100,
+      "currency": "TBH",
+      "id": 8
+    },
+    {
+      "charitiesId": 1,
+      "amount": 100,
+      "currency": "TBH",
+      "id": 9
+    },
+    {
+      "charitiesId": 1,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 10
+    },
+    {
+      "charitiesId": 1,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 11
+    },
+    {
+      "charitiesId": 1,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 12
+    },
+    {
+      "charitiesId": 5,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 13
+    },
+    {
+      "charitiesId": 5,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 14
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 15
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 16
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 17
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 18
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 19
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 20
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 21
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 22
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 23
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 24
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 25
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 26
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 27
+    },
+    {
+      "charitiesId": 4,
+      "amount": 100,
+      "currency": "TBH",
+      "id": 28
+    },
+    {
+      "charitiesId": 4,
+      "amount": 200,
+      "currency": "TBH",
+      "id": 29
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 30
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 31
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 32
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 33
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 34
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 35
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 36
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 37
+    },
+    {
+      "charitiesId": 3,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 38
+    },
+    {
+      "charitiesId": 5,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 39
+    },
+    {
+      "charitiesId": 5,
+      "amount": 200,
+      "currency": "TBH",
+      "id": 40
+    },
+    {
+      "charitiesId": 5,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 41
+    },
+    {
+      "charitiesId": 5,
+      "amount": 100,
+      "currency": "TBH",
+      "id": 42
+    },
+    {
+      "charitiesId": 5,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 43
+    },
+    {
+      "charitiesId": 5,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 44
+    },
+    {
+      "charitiesId": 5,
+      "amount": 50,
+      "currency": "TBH",
+      "id": 45
+    },
+    {
+      "charitiesId": 5,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 46
+    },
+    {
+      "charitiesId": 5,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 47
+    },
+    {
+      "charitiesId": 1,
+      "amount": 200,
+      "currency": "TBH",
+      "id": 48
+    },
+    {
+      "charitiesId": 5,
+      "amount": 150,
+      "currency": "TBH",
+      "id": 49
+    }
+  ]
+}

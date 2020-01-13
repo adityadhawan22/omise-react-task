@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  outline: 0;
+  transition: all .5s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@font-face{
+  font-family: Gilroy;
+  src: url(/assets/fonts/Gilroy-ExtraBold.otf);
+}
+
+h1{
+  font-family: 'Gilroy';
+}
+
+h2{
+  font-family: 'Lato';
+}
+
+.hidden { 
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
