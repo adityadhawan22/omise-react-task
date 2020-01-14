@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   npm run start
 ```
 
-## To start client
+## To start JSON server
 
 ```
   npm run server
