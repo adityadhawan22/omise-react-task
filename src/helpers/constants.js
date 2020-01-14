@@ -4,7 +4,7 @@ const envConstants = {
 }
 
 if(process.env.NODE_ENV === 'production') {
-    envConstants.production = 'http://68.183.93.125:3001/';
+    envConstants.production = 'http://api.react-charity.xyz/';
 }
 
 export default envConstants;

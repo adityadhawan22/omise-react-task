@@ -139,7 +139,7 @@ class Charity extends React.Component {
 				}
 				{charity && charity.charityData && charity.charityData.name &&
 					<CharityWrapper>
-						<img src="https://media.gettyimages.com/photos/group-of-happy-african-children-east-africa-picture-id904577402?s=612x612" />
+						<img src={charity.charityData.image} />
 						<Content>
 							<HomeWrapper>
 								<h1> {charity.charityData.name} </h1>
