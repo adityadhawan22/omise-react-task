@@ -22,8 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 3001",
-    "ssr": "npm run build && node server/index.js",
-    "serverdo": "json-server -H 0.0.0.0 -p 3001 -w db.json"
+    "start:ssr": "EXPRESS=true node server/index.js",
   },
   "eslintConfig": {
     "extends": "react-app"
